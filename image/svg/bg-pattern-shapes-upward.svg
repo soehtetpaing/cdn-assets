@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="120" viewBox="0 0 150 120">
+  
+  <!-- LEFT SIDE (x: 0-40)  -->
+  
+  <!-- triangle - xs -->
+  <polygon points="30,120 36,120 33,114" fill="rgba(99, 102, 241, 0.55)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-140" dur="5s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0;0.65;0" dur="5s" repeatCount="indefinite" begin="1s"/>
+  </polygon>
+  
+  <!-- rectangle - xs -->
+  <rect x="6" y="114" width="5" height="5" rx="1" fill="rgba(99, 102, 241, 0.5)">
+    <animate attributeName="y" values="125;-15" dur="7s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="7s" repeatCount="indefinite" begin="2s"/>
+  </rect>
+  
+  <!-- circle - s -->
+  <circle cx="35" cy="120" r="3" fill="rgba(99, 102, 241, 0.45)">
+    <animate attributeName="cy" values="130;-10" dur="8s" repeatCount="indefinite" begin="3s"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="8s" repeatCount="indefinite" begin="3s"/>
+  </circle>
+  
+  <!-- rectangle - s -->
+  <rect x="24" y="112" width="7" height="7" rx="1.5" fill="rgba(236, 72, 153, 0.45)">
+    <animate attributeName="y" values="125;-15" dur="6.5s" repeatCount="indefinite" begin="5s"/>
+    <animate attributeName="opacity" values="0;0.55;0" dur="6.5s" repeatCount="indefinite" begin="5s"/>
+  </rect>
+  
+  <!-- circle - xs -->
+  <circle cx="18" cy="120" r="2.5" fill="rgba(236, 72, 153, 0.5)">
+    <animate attributeName="cy" values="130;-10" dur="4.5s" repeatCount="indefinite" begin="6s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="4.5s" repeatCount="indefinite" begin="6s"/>
+  </circle>
+  
+  <!-- triangle - s -->
+  <polygon points="38,120 42,120 40,115" fill="rgba(236, 72, 153, 0.45)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-140" dur="4s" repeatCount="indefinite" begin="7s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="4s" repeatCount="indefinite" begin="7s"/>
+  </polygon>
+  
+  <!-- RIGHT SIDE (x: 110-150) -->
+  
+  <!-- circle - s -->
+  <circle cx="135" cy="120" r="3.5" fill="rgba(236, 72, 153, 0.5)">
+    <animate attributeName="cy" values="130;-10" dur="5.5s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="5.5s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  
+  <!-- rectangle - xs -->
+  <rect x="118" y="114" width="5" height="5" rx="1" fill="rgba(99, 102, 241, 0.5)">
+    <animate attributeName="y" values="125;-15" dur="7.5s" repeatCount="indefinite" begin="2.5s"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="7.5s" repeatCount="indefinite" begin="2.5s"/>
+  </rect>
+  
+  <!-- rectangle - s -->
+  <rect x="128" y="112" width="6" height="6" rx="1.5" fill="rgba(99, 102, 241, 0.45)">
+    <animate attributeName="y" values="125;-15" dur="5s" repeatCount="indefinite" begin="4.5s"/>
+    <animate attributeName="opacity" values="0;0.55;0" dur="5s" repeatCount="indefinite" begin="4.5s"/>
+  </rect>
+  
+  <!-- triangle - s -->
+  <polygon points="145,120 150,120 147.5,115" fill="rgba(236, 72, 153, 0.45)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-140" dur="4.5s" repeatCount="indefinite" begin="5.5s"/>
+    <animate attributeName="opacity" values="0;0.55;0" dur="4.5s" repeatCount="indefinite" begin="5.5s"/>
+  </polygon>
+  
+  <!-- circle - xs -->
+  <circle cx="112" cy="120" r="2.8" fill="rgba(99, 102, 241, 0.45)">
+    <animate attributeName="cy" values="130;-10" dur="9s" repeatCount="indefinite" begin="6.5s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="9s" repeatCount="indefinite" begin="6.5s"/>
+  </circle>
+  
+  <!-- rectangle - xs -->
+  <rect x="138" y="115" width="4" height="4" rx="0.8" fill="rgba(236, 72, 153, 0.4)">
+    <animate attributeName="y" values="125;-15" dur="6s" repeatCount="indefinite" begin="7.5s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="6s" repeatCount="indefinite" begin="7.5s"/>
+  </rect>
+  
+  <!-- triangle - xs -->
+  <polygon points="122,120 126,120 124,115" fill="rgba(99, 102, 241, 0.4)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-140" dur="5.2s" repeatCount="indefinite" begin="8.5s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="5.2s" repeatCount="indefinite" begin="8.5s"/>
+  </polygon>
+</svg>

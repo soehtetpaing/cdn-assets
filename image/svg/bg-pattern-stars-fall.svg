@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 50 50">
+  <defs>
+    <!-- diagonal line 1 -->
+    <line id="fallLine1" x1="55" y1="0" x2="49" y2="6" stroke="rgba(99, 102, 241, 0.3)" stroke-width="0.6" stroke-linecap="round">
+      <animate attributeName="x1" values="65;-5" dur="3.6s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="y1" values="-10;70" dur="3.6s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="x2" values="59;-11" dur="3.6s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="y2" values="-4;76" dur="3.6s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0;0.5;0" dur="3.6s" repeatCount="indefinite" begin="1s"/>
+    </line>
+    
+    <!-- diagonal line 2 -->
+    <line id="fallLine2" x1="45" y1="0" x2="33" y2="12" stroke="rgba(236, 72, 153, 0.3)" stroke-width="0.7" stroke-linecap="round">
+      <animate attributeName="x1" values="55;-15" dur="4.4s" repeatCount="indefinite" begin="0.3s"/>
+      <animate attributeName="y1" values="-10;70" dur="4.4s" repeatCount="indefinite" begin="0.3s"/>
+      <animate attributeName="x2" values="43;-27" dur="4.4s" repeatCount="indefinite" begin="0.3s"/>
+      <animate attributeName="y2" values="2;82" dur="4.4s" repeatCount="indefinite" begin="0.3s"/>
+      <animate attributeName="opacity" values="0;0.4;0" dur="4.4s" repeatCount="indefinite" begin="0.3s"/>
+    </line>
+    
+    <!-- diagonal line 3 -->
+    <line id="fallLine3" x1="25" y1="0" x2="18" y2="7" stroke="rgba(236, 72, 153, 0.25)" stroke-width="0.5" stroke-linecap="round">
+      <animate attributeName="x1" values="35;-35" dur="5.4s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="y1" values="-10;70" dur="5.4s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="x2" values="28;-42" dur="5.4s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="y2" values="-3;77" dur="5.4s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="opacity" values="0;0.45;0" dur="5.4s" repeatCount="indefinite" begin="0.8s"/>
+    </line>
+    
+    <!-- diagonal line 4 -->
+    <line id="fallLine4" x1="58" y1="0" x2="53" y2="5" stroke="rgba(99, 102, 241, 0.2)" stroke-width="0.4" stroke-linecap="round">
+      <animate attributeName="x1" values="68;-2" dur="6.4s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="y1" values="-10;70" dur="6.4s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="x2" values="63;-7" dur="6.4s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="y2" values="-5;75" dur="6.4s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="opacity" values="0;0.35;0" dur="6.4s" repeatCount="indefinite" begin="2s"/>
+    </line>
+    
+    <!-- diagonal line 5 -->
+    <line id="fallLine5" x1="48" y1="0" x2="37" y2="11" stroke="rgba(99, 102, 241, 0.3)" stroke-width="0.75" stroke-linecap="round">
+      <animate attributeName="x1" values="58;-12" dur="3s" repeatCount="indefinite" begin="1.8s"/>
+      <animate attributeName="y1" values="-10;70" dur="3s" repeatCount="indefinite" begin="1.8s"/>
+      <animate attributeName="x2" values="47;-23" dur="3s" repeatCount="indefinite" begin="1.8s"/>
+      <animate attributeName="y2" values="1;81" dur="3s" repeatCount="indefinite" begin="1.8s"/>
+      <animate attributeName="opacity" values="0;0.5;0" dur="3s" repeatCount="indefinite" begin="1.8s"/>
+    </line>
+    
+    <!-- diagonal line 6 -->
+    <line id="fallLine6" x1="20" y1="0" x2="7" y2="13" stroke="rgba(236, 72, 153, 0.3)" stroke-width="0.85" stroke-linecap="round">
+      <animate attributeName="x1" values="30;-40" dur="4.2s" repeatCount="indefinite" begin="0.7s"/>
+      <animate attributeName="y1" values="-10;70" dur="4.2s" repeatCount="indefinite" begin="0.7s"/>
+      <animate attributeName="x2" values="17;-53" dur="4.2s" repeatCount="indefinite" begin="0.7s"/>
+      <animate attributeName="y2" values="3;83" dur="4.2s" repeatCount="indefinite" begin="0.7s"/>
+      <animate attributeName="opacity" values="0;0.5;0" dur="4.2s" repeatCount="indefinite" begin="0.7s"/>
+    </line>
+  </defs>
+  
+  <!-- use all diagonal falling lines -->
+  <use href="#fallLine1"/>
+  <use href="#fallLine2"/>
+  <use href="#fallLine3"/>
+  <use href="#fallLine4"/>
+  <use href="#fallLine5"/>
+  <use href="#fallLine6"/>
+</svg>

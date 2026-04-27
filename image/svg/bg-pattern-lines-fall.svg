@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 50 50">
+  <defs>
+    <!-- line 1 -->
+    <line id="fallLine1" x1="40" y1="0" x2="40" y2="6" stroke="rgba(99, 102, 241, 0.3)" stroke-width="0.6" stroke-linecap="round">
+      <animate attributeName="y1" values="-20;70" dur="1.8s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="y2" values="-14;76" dur="1.8s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0;0.5;0" dur="1.8s" repeatCount="indefinite" begin="1s"/>
+    </line>
+    
+    <!-- line 2 -->
+    <line id="fallLine2" x1="50" y1="0" x2="50" y2="12" stroke="rgba(236, 72, 153, 0.3)" stroke-width="0.7" stroke-linecap="round">
+      <animate attributeName="y1" values="-20;70" dur="2.2s" repeatCount="indefinite" begin="0.3s"/>
+      <animate attributeName="y2" values="-8;82" dur="2.2s" repeatCount="indefinite" begin="0.3s"/>
+      <animate attributeName="opacity" values="0;0.4;0" dur="2.2s" repeatCount="indefinite" begin="0.3s"/>
+    </line>
+    
+    <!-- line 3 -->
+    <line id="fallLine3" x1="35" y1="0" x2="35" y2="7" stroke="rgba(236, 72, 153, 0.25)" stroke-width="0.5" stroke-linecap="round">
+      <animate attributeName="y1" values="-20;70" dur="2.7s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="y2" values="-13;77" dur="2.7s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="opacity" values="0;0.45;0" dur="2.7s" repeatCount="indefinite" begin="0.8s"/>
+    </line>
+    
+    <!-- line 4 -->
+    <line id="fallLine4" x1="5" y1="0" x2="5" y2="5" stroke="rgba(99, 102, 241, 0.2)" stroke-width="0.4" stroke-linecap="round">
+      <animate attributeName="y1" values="-20;70" dur="3.2s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="y2" values="-15;75" dur="3.2s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="opacity" values="0;0.35;0" dur="3.2s" repeatCount="indefinite" begin="2s"/>
+    </line>
+    
+    <!-- line 5 -->
+    <line id="fallLine5" x1="45" y1="0" x2="45" y2="11" stroke="rgba(99, 102, 241, 0.3)" stroke-width="0.75" stroke-linecap="round">
+      <animate attributeName="y1" values="-20;70" dur="1.5s" repeatCount="indefinite" begin="1.8s"/>
+      <animate attributeName="y2" values="-9;81" dur="1.5s" repeatCount="indefinite" begin="1.8s"/>
+      <animate attributeName="opacity" values="0;0.5;0" dur="1.5s" repeatCount="indefinite" begin="1.8s"/>
+    </line>
+    
+    <!-- line 6 -->
+    <line id="fallLine6" x1="20" y1="0" x2="20" y2="13" stroke="rgba(236, 72, 153, 0.3)" stroke-width="0.85" stroke-linecap="round">
+      <animate attributeName="y1" values="-20;70" dur="2.1s" repeatCount="indefinite" begin="0.7s"/>
+      <animate attributeName="y2" values="-7;83" dur="2.1s" repeatCount="indefinite" begin="0.7s"/>
+      <animate attributeName="opacity" values="0;0.5;0" dur="2.1s" repeatCount="indefinite" begin="0.7s"/>
+    </line>
+  </defs>
+
+  <!-- use all falling lines -->
+  <use href="#fallLine1"/>
+  <use href="#fallLine2"/>
+  <use href="#fallLine3"/>
+  <use href="#fallLine4"/>
+  <use href="#fallLine5"/>
+  <use href="#fallLine6"/>
+</svg>
