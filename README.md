@@ -11,7 +11,7 @@ A centralized repository for distributing compiled libraries, packaged modules, 
 #### Genius Utility Library (Spring Boot)
 A collection of reusable utilities designed to simplify backend development in Spring Boot applications.
 
-- **Version:** `utils-1.0.4`
+- **Version:** `utils-1.0.5`
 
 #### AES Swing Application
 A desktop application built with Java Swing for secure text encryption and decryption using AES-256 (CBC mode).
@@ -25,7 +25,7 @@ A desktop application built with Java Swing for secure text encryption and decry
 #### Genius Utility Library (Express.js)
 Utility package for Node.js applications using Express, providing helper functions and common backend tools.
 
-- **Package:** `genius-utils-1.0.4`
+- **Package:** `genius-utils-1.0.5`
 
 ---
 
@@ -69,20 +69,20 @@ All assets are intended for CDN distribution and can be directly integrated into
 <dependency>
   <groupId>com.genius</groupId>
   <artifactId>utils</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.5</version>
 </dependency>
 ```
 
 **Node.js (install from TGZ):**
 ```bash
-npm install https://cdn.jsdelivr.net/gh/soehtetpaing/cdn-assets@v1.0.0/tgz/genius-utils-1.0.4.tgz
+npm install https://cdn.jsdelivr.net/gh/soehtetpaing/cdn-assets@v1.0.3/tgz/genius-utils-1.0.5.tgz
 ```
 
 **Fonts (CSS):**
 ```css
 @font-face {
   font-family: 'Burma Thin';
-  src: url('https://cdn.jsdelivr.net/gh/soehtetpaing/cdn-assets@v1.0.0/font/mm/BurmaThin.woff2') format('woff2');
+  src: url('https://cdn.jsdelivr.net/gh/soehtetpaing/cdn-assets@v1.0.3/font/mm/BurmaThin.woff2') format('woff2');
 }
 ```
 
